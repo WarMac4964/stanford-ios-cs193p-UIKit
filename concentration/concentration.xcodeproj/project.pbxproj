@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,21 @@
 		50EAAAC82D0364A900AA3DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50EAAACA2D0364A900AA3DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		50DD63FC2D1330680004B84F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Card.swift,
+				Concentration.swift,
+			);
+			target = 50EAAAB82D0364A800AA3DF2 /* concentration */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		50F3D9552D12FF3D00EA7BF6 /* Data */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (50DD63FC2D1330680004B84F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Data; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		50EAAAB62D0364A800AA3DF2 /* Frameworks */ = {
@@ -56,6 +71,7 @@
 		50EAAABB2D0364A800AA3DF2 /* concentration */ = {
 			isa = PBXGroup;
 			children = (
+				50F3D9552D12FF3D00EA7BF6 /* Data */,
 				50EAAABC2D0364A800AA3DF2 /* AppDelegate.swift */,
 				50EAAABE2D0364A800AA3DF2 /* SceneDelegate.swift */,
 				50EAAAC02D0364A800AA3DF2 /* ViewController.swift */,
